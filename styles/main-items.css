@@ -1,0 +1,28 @@
+.main__items {
+    width: 100%;
+}
+
+.main__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.main__buttons-create {
+    margin-right: 50px;
+    padding: 10px 0;
+    width: 130px;
+}
+
+.main__buttons-create {
+    background-color: var(--color-green);
+}
+
+.main__items-container {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

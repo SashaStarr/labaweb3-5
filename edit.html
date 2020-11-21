@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Sneakers</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-container">
+                <a href="#" class="nav__name">
+                    <h4>Sneakers</h4>
+                    <a href="index.html">My Sneakers</a>
+                    <a href="create.html">Create Sneakers</a>
+                </a>
+                <form class="nav__search">
+                    <input type="text" placeholder="Enter" class="input-field nav__search-input" id="search_input" />
+                    <button class="button nav__search-button" id="button__search">Search</button>
+                    <button class="button nav__delete-button" id="button__clear">Delete</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="create-container">
+            <form class="create-form" id="edit-form">
+
+                <h2 class="tools__title">Edit Sneakers</h2>
+
+                <label for="header-input">Material</label>
+                <input type="text" class="input-form" id="header-input" placeholder="Enter">
+
+                <label for="description-input">Description</label>
+                <textarea class="description-input" id="description-input" cols="30" rows="3" placeholder="Enter"></textarea>
+
+                <label for="prices">Price</label>
+                <input type="number" class="input-form" id="price-input" placeholder="Enter">
+
+                <button class="button create-button" id="edit-button">Edit</button>
+
+            </form>
+        </div>
+    </section>
+
+    <script type='module' src="./js/edit.js"></script>
+</body>
+
+</html>
