@@ -1,0 +1,28 @@
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 5% auto 0;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.edit-form h2 {
+    text-align: center;
+}
+
+.edit-form label {
+    text-align: center;
+}
+
+.edit-button {
+    margin: 0 auto;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -9,6 +9,7 @@ aside {
     border-right: 2px solid grey;
     margin-top: 20px;
 }
+
 aside h2 {
     text-align: center;
     font-size: 25px;
@@ -16,17 +17,19 @@ aside h2 {
 }
 
 .aside__sort-container {
-    display: flex;  
+    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 90%;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid black;
     margin: 0 auto;
     padding-bottom: 10px;
 }
+
 .aside__sort-container h3 {
     width: 50%;
 }
+
 .button-sort {
     height: 25px;
     width: 60px;
@@ -35,6 +38,7 @@ aside h2 {
     background-color: #fff;
     padding: 0 1px;
 }
+
 .button-sort__circle {
     background-color: rgb(2, 117, 216);
     border-radius: 50%;
@@ -42,14 +46,17 @@ aside h2 {
     width: 20px;
     float: left;
 }
+
 .button-sort__circle.active {
     float: right;
 }
+
 .aside__count-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .button-count {
     height: 35px;
     width: 120px;
@@ -60,11 +67,13 @@ aside h2 {
     font-size: 15px;
     font-weight: bold;
 }
+
 .total-expenses {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .total-expenses p {
     margin-right: 5px;
 }
